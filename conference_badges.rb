@@ -20,7 +20,7 @@ def assign_rooms(list)
   rooms
 end
 
-def printer(attendees)
+def printer
   batch_badge_creator(attendees)
   assign_rooms.each {|x| puts x }
 end
