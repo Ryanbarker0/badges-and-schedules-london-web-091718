@@ -13,7 +13,8 @@ end
 def assign_rooms(list)
   rooms = Array.new
   i = 0
-  list.each {|x| do rooms << "Hello, #{x}! You'll be assigned to room #{i + 1}" }
+  list.each do |x| 
+    rooms << "Hello, #{x}! You'll be assigned to room #{i + 1}"
   end
   rooms
 end
