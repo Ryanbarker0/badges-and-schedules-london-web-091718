@@ -29,3 +29,5 @@ def printer(attendees)
   @room.each { |x| puts x }
   binding.pry
 end
+
+printer(attendees)
