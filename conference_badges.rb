@@ -30,4 +30,4 @@ def printer(attendees)
   binding.pry
 end
 
-printer(attendees)
+printer(["Ryan", "Tom", "Pete"])
