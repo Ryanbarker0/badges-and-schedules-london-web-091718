@@ -1,4 +1,3 @@
-require 'pry'
 
 def badge_maker(name)
   "Hello, my name is #{name}."
@@ -27,7 +26,4 @@ def printer(attendees)
   @badges.each { |x| puts x }
   assign_rooms(attendees)
   @rooms.each { |x| puts x }
-  binding.pry
 end
-
-printer(["Ryan", "Tom", "Pete"])
